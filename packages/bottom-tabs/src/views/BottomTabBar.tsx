@@ -324,7 +324,7 @@ export function BottomTabBar({
         {tabBarBackgroundElement}
       </View>
       <View
-        accessibilityRole="tablist"
+        accessibilityRole="button"
         style={
           tabBarPosition === 'bottom'
             ? styles.bottomContent
